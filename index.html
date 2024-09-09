@@ -31,7 +31,7 @@
     <div class="container-fluid">
       <!--Logo and Title -->
       <div class="row">
-        <div class="d-flex align-items-center justify-content-center flex-column p-4 col-12">
+        <div class="d-flex align-items-center justify-content-center flex-column p-4 col-12 ">
           <div class="d-flex">
             <span class="fs-1" style="font-family: Anton SC, sans-serif;">PING</span>
             <span id="spot" class="fs-1 text-primary" style="font-family: Archivo Black, sans-serif;">.</span>
@@ -47,10 +47,15 @@
       </div>
       <!-- Email & Notify -->
       <div class="row">
-        <div class="d-flex align-items-center justify-content-center col-12">
-          <input required type="email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
-            class="form-control rounded-pill pe-5 ps-2 border py-2 w-25" placeholder="Your email address...">
-          <button class="btn btn-primary rounded-pill ms-2" type="submit">Notify Me</button>
+        <div class="d-flex align-items-center justify-content-center ">
+          <div class="col-md-4">
+            <input required type="email"
+              pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+              class="form-control rounded-pill pe-5 ps-2 border" placeholder="Your email address...">
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-primary rounded-pill ms-2" type="submit">Notify Me</button>
+          </div>
         </div>
       </div>
       <!-- Image Preview -->
